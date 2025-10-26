@@ -30,8 +30,8 @@
     background:var(--card); border:1px solid #e6e8ee; border-radius:24px; padding:28px;
     box-shadow:0 10px 30px rgba(16,24,40,.06);
   }
-  .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}
-  @media (max-width:900px){.hero{grid-template-columns:1fr}}
+  /* One-column hero (preview removed) */
+  .hero{display:grid;grid-template-columns:1fr;gap:28px;align-items:center}
   h1{font-size:40px;line-height:1.06;margin:6px 0 10px}
   .sub{color:var(--sub);font-size:18px}
   .pills{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 4px}
@@ -47,7 +47,6 @@
     padding:0 18px; font-weight:800; cursor:pointer;
   }
   button:disabled{opacity:.6;cursor:not-allowed}
-  .legal{font-size:12px;color:var(--sub);margin-top:8px}
   .mini{font-size:13px;color:var(--sub);margin-top:10px}
   .section{margin-top:28px}
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
@@ -87,10 +86,6 @@
           <div id="formNote" class="mini">We’ll email you when the app launches. No spam.</div>
           <div id="formMsg" class="mini" style="display:none"></div>
         </div>
-      </div>
-
-      <div>
-        <img src="https://dummyimage.com/720x520/f8fafc/111&text=App+preview" alt="App mockup" style="width:100%;height:auto;border-radius:16px;border:1px solid #e6e8ee;background:#fff">
       </div>
     </div>
 
